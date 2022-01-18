@@ -1,0 +1,19 @@
+.address-top .toolbar-mainbar:after{
+	height: 0;
+}
+.color-behind-tabs-on .SearchField,.color-behind-tabs-on .UrlBar-AddressField{
+	border: none;
+}
+.color-behind-tabs-on .SearchField:focus-within,.color-behind-tabs-on .UrlBar-AddressField:focus-within{
+	outline: none;
+}
+.tab-position .tab,.tab-position .tab .close,.toolbar-tabbar .button-toolbar button,.toolbar-tabbar .toolbar-group .button-toolbar button{
+	transition-duration: 0.5s;
+	transition-timing-function: ease-out;
+}
+.toolbar-tabbar .button-toolbar button,.toolbar-tabbar .toolbar-group .button-toolbar button{
+	background-color: none;
+}
+.tab-position .tab{
+
+}
