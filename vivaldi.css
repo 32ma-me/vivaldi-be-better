@@ -1,7 +1,7 @@
 .address-top .toolbar-mainbar:after{
 	height: 0;
 }
-.color-behind-tabs-on .SearchField,.color-behind-tabs-on .UrlBar-AddressField{
+.color-behind-tabs-on .SearchField,.color-behind-tabs-on .UrlBar-AddressField,.vivaldi-settings .settings-sidebar .button-category.category-selected{
 	border: none;
 }
 .color-behind-tabs-on .SearchField:focus-within,.color-behind-tabs-on .UrlBar-AddressField:focus-within{
@@ -14,6 +14,12 @@
 .toolbar-tabbar .button-toolbar button,.toolbar-tabbar .toolbar-group .button-toolbar button{
 	background-color: none;
 }
-.tab-position .tab{
-
+#panels-container.left:not(.overlay) .panel-group, #panels-container.left.icons .panel-group, #panels-container.left.icons.overlay,.vivaldi-settings .settings-sidebar{
+	box-shadow: none;
+}
+.vivaldi-settings .settings-sidebar{
+	background: var(--colorBg);
+}
+:focus,.vivaldi-settings .settings-sidebar .settings-navigation:focus-within .tree-row[data-selected] .button-category:not(:active){
+	outline: none;
 }
